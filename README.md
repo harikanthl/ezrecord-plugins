@@ -28,7 +28,7 @@ Then try: "record a 60 second demo of my app's signup flow", "edit my last recor
 
 ## What's inside
 
-Skills: setup, record-a-demo, edit-a-recording, make-shorts, dub-a-video, plan-a-shoot. They teach Claude ezRecord's workflows; the tools themselves (about 300) come from the app.
+Skills: setup, record-a-demo, edit-a-recording, make-shorts, dub-a-video, plan-a-shoot. They teach Claude ezRecord's workflows; the tools themselves (over 200) come from the app.
 
 ## Privacy
 
