@@ -1,0 +1,8 @@
+{
+  "name": "ezrecord",
+  "owner": { "name": "Harikanth Lingutla", "url": "https://harikanth.site/ezrecord" },
+  "metadata": { "description": "ezRecord for Claude Code: record and edit videos on your Mac." },
+  "plugins": [
+    { "name": "ezrecord", "source": "./" }
+  ]
+}

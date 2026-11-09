@@ -1,0 +1,23 @@
+{
+  "name": "ezrecord",
+  "displayName": "ezRecord",
+  "version": "1.0.0",
+  "description": "Record, edit, caption, dub and post videos with ezRecord on your Mac: product demos Claude films for you, edits by transcript, shorts, dubbing and shoot plans.",
+  "author": { "name": "Harikanth Lingutla", "url": "https://harikanth.site/ezrecord" },
+  "homepage": "https://harikanth.site/ezrecord",
+  "repository": "https://github.com/harikanthl/ezrecord-plugins",
+  "license": "MIT",
+  "keywords": ["video", "screen recording", "screen recorder", "editing", "captions", "shorts", "dubbing", "product demo", "macos"],
+  "documentationUrl": "https://harikanth.site/ezrecord/agents",
+  "supportUrl": "https://harikanth.site/ezrecord/support",
+  "privacyPolicyUrl": "https://harikanth.site/ezrecord/privacy",
+  "userConfig": {
+    "passcode": {
+      "type": "string",
+      "title": "ezRecord passcode",
+      "description": "From ezRecord › Settings › Agents › Copy Passcode. ezRecord's tools only answer on this Mac, and only with this passcode.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

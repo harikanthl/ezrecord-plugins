@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ezrecord": {
+      "type": "http",
+      "url": "http://127.0.0.1:7879/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.passcode}" }
+    }
+  }
+}
