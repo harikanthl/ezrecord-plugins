@@ -20,7 +20,9 @@ claude plugin marketplace add harikanthl/ezrecord-plugins
 claude plugin install ezrecord@ezrecord
 ```
 
-3. When it asks for the passcode, copy it from ezRecord › Settings › Agents › Copy Passcode. It's stored in your Keychain.
+3. When it asks for the passcode, copy it from ezRecord › Settings › Agents (the copy button beside Passcode). Claude Code keeps it in your Keychain.
+
+On ezRecord 1.1.1 or later, ezRecord › Settings › Agents › Connect Claude Code does all three steps for you.
 
 Then try: "record a 60 second demo of my app's signup flow", "edit my last recording and add captions", "make three shorts from it", or "dub it into Hindi".
 

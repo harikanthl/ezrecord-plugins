@@ -9,7 +9,7 @@ ezRecord's tools come from the ezRecord app on this Mac (127.0.0.1:7879). They o
 
 1. Call `app_status`. If it answers, report the version and any missing permission (screen, camera, microphone) with where to turn it on (System Settings › Privacy & Security). You're done.
 2. If the connection is refused: ezRecord isn't running, or its agent server is off. Ask the person to open ezRecord (it is at https://harikanth.site/ezrecord, with a 14 day free trial, if they do not have it) and check ezRecord › Settings › Agents › "Let agents use ezRecord" is on.
-3. If it says the passcode is missing or wrong: ask them to copy it from ezRecord › Settings › Agents › Copy Passcode, then run `/plugin`, choose ezrecord, and paste it into the passcode setting. Then `/mcp` reconnects the server.
+3. If it says the passcode is missing or wrong: the quickest fix is ezRecord › Settings › Agents › Connect Claude Code (ezRecord 1.1.1 or later). Otherwise ask them to copy it from ezRecord › Settings › Agents (the copy button beside Passcode), run `/plugin configure ezrecord@ezrecord` and paste it there. Then `/mcp` reconnects the server.
 4. Call `app_status` again to confirm.
 
 Never ask the person to paste the passcode into the chat.
