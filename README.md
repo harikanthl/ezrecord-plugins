@@ -20,7 +20,7 @@ claude plugin marketplace add harikanthl/ezrecord-plugins
 claude plugin install ezrecord@ezrecord
 ```
 
-3. When it asks for the passcode, copy it from ezRecord › Settings › Agents (the copy button beside Passcode). Claude Code keeps it in your Keychain.
+3. When it asks for the passcode, copy it from ezRecord › Settings › Agents (the copy button beside Passcode; on 1.1.0, copy the MCP address and use the part after `/mcp/`). Claude Code keeps it in your Keychain.
 
 On ezRecord 1.1.1 or later, ezRecord › Settings › Agents › Connect Claude Code does all three steps for you.
 
