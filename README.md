@@ -30,6 +30,10 @@ Then try: "record a 60 second demo of my app's signup flow", "edit my last recor
 
 Skills: setup, record-a-demo, edit-a-recording, make-shorts, dub-a-video, plan-a-shoot. They teach Claude ezRecord's workflows; the tools themselves (over 200) come from the app.
 
+## What it connects to
+
+One MCP server: the ezRecord app on your own Mac, at `http://127.0.0.1:7879/mcp` (change it in the plugin's settings if you moved ezRecord's port). The plugin sends your passcode to it as a Bearer token and nothing anywhere else. It has no hooks, scripts or packages to install. Because the server is on your Mac, use the plugin in Claude Code on that Mac; Claude in the browser can't reach it.
+
 ## Privacy
 
 ezRecord's tools answer only on your Mac and only with your passcode. Recordings stay on your Mac. Paid services (ElevenLabs, Sarvam) are used only with your own keys and only after you agree to the cost. See https://harikanth.site/ezrecord/privacy.
